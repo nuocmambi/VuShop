@@ -1,0 +1,26 @@
+<form method="post" action="/order">
+
+  <div class="Oppsumering">
+    <h2>Oppsummering</h2>
+    <div class="panel-group">
+      <div class="panel panel-default">
+        <div class="panel-heading">Navn:</div>
+        <div class="panel-body">{{navn}}</div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">Telefonnummer:</div>
+        <div class="panel-body">{{tlfNr}}</div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">Email:</div>
+        <div class="panel-body">{{email}}</div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">Beskrivelse:</div>
+        <div class="panel-body">{{beskrivelse}}</div>
+      </div>
+    </div>
+  </div>
+
+  <button type="button" class="btn btn-success">Send bestilling</button>
+</form>
