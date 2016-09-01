@@ -10,11 +10,15 @@ router.get('/', function(req, res, next) {
 });
 
 
+
 router.post('/', function(req, res){
-  console.log(req.body.navn);
+  var navn = req.body.navn;
+  var email = req.body.email;
+  var tlfNr = req.body.tlfNr;
+  var beskrivelse = req.body.beskrivelse;
 
-  res.render('Confirm');
-
+  res.render('confirm', { navn : navn, email : email, tlfNr : tlfNr, beskrivelse, beskrivelse});
+  //res.redirect('/order/confirm', { navn : navn, email : email, tlfNr : tlfNr, beskrivelse, beskrivelse});
 
 });
 
