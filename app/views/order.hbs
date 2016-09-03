@@ -1,21 +1,50 @@
-<h3>Bestillingsskjema</h3>
 
-<form method="post" action="/order">
-   <div class="form-group">
+<div id="underbestilling">
+  <h3>Bestillingsskjema</h3>
+  <div class="form-group">
     <label>Navn</label>
-    <input type="text" class="form-control" placeholder="Navn" name="navn">
+    <input id="bestillingsnavn" type="text" class="form-control" placeholder="Navn" name="navn">
   </div>
   <div class="form-group">
     <label>Telefonnummer</label>
-    <input type="text" class="form-control" placeholder="TlfNr" name="tlfNr">
+    <input id="bestillingTlf" type="text" class="form-control" placeholder="TlfNr" name="tlfNr">
   </div>
-   <div class="form-group">
+  <div class="form-group">
     <label>Email</label>
-    <input type="email" class="form-control" placeholder="Email" name="email">
+    <input id="bestillingEmail" type="email" class="form-control" placeholder="Email" name="email">
   </div>
   <div class="form-group">
     <label>Beskrivelse</label>
-    <input type="text" class="form-control" placeholder="Beskrivelse" name="beskrivelse">
+    <input id="bestillingBeskrivelse" type="text" class="form-control" placeholder="Beskrivelse" name="beskrivelse">
   </div>
-  <button type="submit" class="btn btn-default">Neste</button>
-</form>
+
+</div>
+<button id="neste" class="btn btn-default">Neste</button>
+
+
+<div id="confirm" class="initiallyHidden" method="post" action="/order">
+  <div class="Oppsumering">
+    <h3>Oppsummering</h3>
+    <div class="panel-group">
+      <div class="panel panel-default">
+        <div class="panel-heading"><label>Navn</label></div>
+        <div class="panel-body" id="oppsummeringNavn"></div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading"><label>Telefonnummer</label></div>
+        <div class="panel-body" id="oppsummeringTlf"></div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading"><label>Email</label></div>
+        <div class="panel-body" id="oppsummeringEmail"></div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading"><label>Beskrivelse</label>:</div>
+        <div class="panel-body" id="oppsummeringBeskrivelse"></div>
+      </div>
+    </div>
+  </div>
+
+  <button id="endringer" class="btn btn-default">Endringer</button>
+  <button type="submit" class="btn btn-default">Send bestilling</button>
+</div>
