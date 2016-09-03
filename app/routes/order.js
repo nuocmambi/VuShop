@@ -17,8 +17,11 @@ router.post('/', function(req, res){
   var tlfNr = req.body.tlfNr;
   var beskrivelse = req.body.beskrivelse;
 
+  //lagre i database
+
+
   res.render('confirm', { navn : navn, email : email, tlfNr : tlfNr, beskrivelse: beskrivelse});
-  //res.redirect('/order/confirm');
+
 
 });
 
