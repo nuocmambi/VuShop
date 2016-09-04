@@ -6,26 +6,41 @@
   <link rel='stylesheet' href='/stylesheets/style.css' />
 </head>
 <body>
-  <div class="container">
-    <div class="header clearfix">
-      <nav>
-        <ul class="nav nav-pills pull-right">
-          <li role="presentation" class="active"><a href="/">Home</a></li>
-          <li role="presentation"><a href="/kart">Kart</a></li>
-          <li role="presentation"><a href="/about">About</a></li>
-        </ul>
-      </nav>
-      <h3 class="text-muted">Vu's Shop</h3>
-    </div>
+  <div class="site-wrapper">
 
+        <div class="site-wrapper-inner">
 
-    {{{body}}}
+          <div class="cover-container">
 
-    <footer class="footer">
-      <p>&copy; 2016 Company, Inc.</p>
-    </footer>
+            <div class="masthead clearfix">
+              <div class="inner">
+                <h3 class="masthead-brand">Cover</h3>
+                <nav>
+                  <ul class="nav masthead-nav">
+                    <li class="active"><a href="/">Home</a></li>
+                    <li><a href="/map">Map</a></li>
+                    <li><a href="/about">About</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
 
-  </div> <!-- /container -->
+            <div class="inner cover">
+              {{{body}}}
+            </div>
+
+            <div class="mastfoot">
+              <div class="inner">
+                <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
 
 </body>
 </html>

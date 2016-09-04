@@ -3,7 +3,7 @@ var Schema = mongoose.Schema;
 
 var OrderSchema = new Schema({
   navn: String,
-  tlfNr: Integer,
+  tlfNr: Number,
   email: String,
   beskrivelse: String
 })
