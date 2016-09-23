@@ -30,11 +30,11 @@ p{
 }
 ul{
 	padding:0 0;
-	margin:0 0;	
+	margin:0 0;
 }
 body{
 	padding:0 0;
-	margin:0 0; 
+	margin:0 0;
 	font-family: 'Open Sans', sans-serif;
 }
 .navbar {
@@ -232,8 +232,9 @@ h4.payment-head{
 	color: #222222;
 	padding: 0.5em 0;
 	text-align: left;
-    float: left;	
+    float: left;
 }
+
 .payment-online-form-left span{
     vertical-align: sub;
 	margin-right: 30px;
@@ -310,7 +311,7 @@ input#datepicker {
 	-o-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
 	outline:none;
-	
+
 }
 .payment-sendbtns input[type="reset"]:hover{
 	color:#FFF;
@@ -332,7 +333,7 @@ a.order {
 	-webkit-appearance: none;
 	outline: none;
     text-decoration: none;
-	
+
 }
 a.order:hover{
 	color:#fff;
@@ -977,21 +978,21 @@ img.zoom-img {
 	background:#282828;
 	opacity: 0;
 }
-.ch-img-1 { 
+.ch-img-1 {
 	  background: url(../images/s1.jpg)no-repeat;
 	z-index: 12;
 }
 
-.ch-img-2 { 
+.ch-img-2 {
 	  background: url(../images/s2.jpg)no-repeat;
 	z-index: 11;
 }
 
-.ch-img-3 { 
+.ch-img-3 {
 	  background: url(../images/s3.jpg)no-repeat;
 	z-index: 10;
 }
-.ch-img-4 { 
+.ch-img-4 {
 	  background: url(../images/s4.jpg)no-repeat;
 	z-index: 10;
 }
@@ -1001,7 +1002,7 @@ img.zoom-img {
     margin: 0 15px;
     padding: 61px 0 0 0;
     height: 110px;
-    text-shadow: 0 0 1px #fff; 
+    text-shadow: 0 0 1px #fff;
 	font-family: 'Ubuntu Condensed', sans-serif;
  }
 .ch-info p {
@@ -1104,7 +1105,7 @@ figure.icon i {
   background:#f5261f;
   margin: 0 auto;
   text-align: center;
-  position: relative;	
+  position: relative;
 }
 .history-grid.icon img {
   position: relative;
@@ -1245,7 +1246,7 @@ font-weight:100;
   border-radius:4px;
   -webkit-border-radius:4px;
 	-moz-border-radius:4px;
-}  
+}
 .grid_5{
 	background:none;
 	padding:2em 0;
@@ -1484,7 +1485,7 @@ address {
 	font-weight: 400;
 	padding: 10px 0;
 	color: #222;
-	
+
 }
 .contact-right input[type="text"] {
 	width: 100%;
@@ -1501,7 +1502,7 @@ address {
 	resize: none;
 	outline: none;
 	border: 1px solid #dcdee0;
-	
+
 }
 .contact-right input[type="submit"] {
 	width: 20%;
@@ -1527,7 +1528,7 @@ address {
 				/**responsive**/
 
 @media(max-width:1440px){
-.header {    
+.header {
 	min-height: 835px;
 }
 .caption {
@@ -1590,8 +1591,8 @@ address {
 }
 .ch-grid li {
     margin: 6px;
-}   
-.history-grid h5 { 
+}
+.history-grid h5 {
     font-size: 2.8em;
 }
 .history-grid h6 {
@@ -1632,7 +1633,7 @@ address {
 .caption p, .high-quality p, .last-grid p, .new-grid p,.footer-grid p, .about-grid p, .cook-grid p, .contact-left p {
     font-size: 0.95em;
 }
-.high-quality,.feature-menu,.last-post,.new-section,.footer-section,.about-section,.staff-section,.iteam,.history-section,.gallery,.typography,.contact {   
+.high-quality,.feature-menu,.last-post,.new-section,.footer-section,.about-section,.staff-section,.iteam,.history-section,.gallery,.typography,.contact {
  padding: 3em 0;
 }
 .high-quality h2, .about-section h2, .gallery h2, .typography-info h2, .contact h2 {
@@ -1768,7 +1769,7 @@ figure.icon i {
 .navbar-brand h1 a {
     font-size: 1.1em;
 }
-.navbar-toggle {    
+.navbar-toggle {
 	margin-right: 0px;
 }
 .navbar-nav {
